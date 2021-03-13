@@ -1,38 +1,377 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap');
+
+/* 320px
+480px
+600px
+768px
+900px
+1024px
+1200px
+*/
+body {
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  background-color: #121B2E;
+  color: #fff;
+  background-image: url("components/SVG/backgroundNet.svg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+h1{
+  font-weight: 100;
+  font-size: 50px;
+}
+h2{
+  font-weight: 200;
+  font-size:30px;
+  color: #B8B8B8;
+}
+
+#nav{
+  background: rgba(0,0,0, 0.25);
+  height:80px;
+}
+
+#navbar ul{
+  padding:25px 160px 0px 0px;
+  margin:0px;
+}
+#navbar li{
+  font-size: 30px;
+  display:inline;
+  text-align: center;
+  padding:0px 100px 0px 100px;
+}
+#navbar .selected{
+  font-weight:600;
+}
+#navbar a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+}
+#homelogo{
+  float:left;
+  width:135px;
+  padding:5px 0px 0px 50px;
+}
+#homelogo a{
+  margin:0px;
+  padding:0px;
+}
+#mailLogo:hover {
+  cursor:pointer;
+}
+
+
+#home h1{
+  font-weight: 100;
+  font-size: 130px;
+  margin:0px;
+  margin-top: 1.5em;
+}
+#home h2{
+  font-weight: 400;
+  font-size: 47px;
+  margin:0px;
+}
+#home p{
+  font-weight: 400;
+  font-size: 25px;
+  margin: 150px 600px 0px 600px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0, 0.25);
+  text-align: center;
+}
+#links {
+  display:inline-flex;
+  margin-bottom:15px;
+  margin:auto;
+}
+#links .logo {
+  width:50px;
+  height:50px;
+  margin:20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#projects{
+  margin:20px;
+}
+.card-deck {
+  display:inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color:#fff;
+  text-decoration: none;
+}
+.card-deck a{
+  color:#fff;
+  text-decoration: none;
+  margin:50px;
+}
+.card {
+  background: rgba(0,0,0, 0.25);
+  margin:0px;
+  color:#fff;
+  height:770px;
+}
+.card:hover{
+  cursor: pointer;
+}
+.card-img-top {
+  margin:10px;
+}
+.card-body {
+  margin:30px;
+  font-size:20px;
+  height:6em;
+}
+.card-title {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.card-footer {
+  padding:5px;
+  font-size:20px;
+}
+
+#about{
+  float:left;
+}
+
+#about-left{
+  float:left;
+}
+#current{
+  width:100%;
+}
+#current .current{
+  background: rgba(0,0,0, 0.25);
+}
+#exp {
+  display:inline;
+  width:100%;
+}
+#exp .exp{
+  float:left;
+  margin:40px;
+  width:250px;
+  height:400px;
+  background: rgba(0,0,0, 0.25);
+}
+#about-right{
+  float:right;
+}
+@media screen and (max-width: 1600px) {
+  body {
+    background-image: none;
+    width:100%;
+    background-repeat: none;
+    background-size: none;
+  }
+  #navbar li{
+    padding:0px;
+  }
+  #navbar a{
+    padding:20px;
+  }
+  #home p{
+    margin: 150px 300px 0px 300px;
+  }
+
+}
+@media screen and (max-width: 1200px) {
+  #nav{
+    height:250px;
+  }
+  #navbar{
+    display:grid;
+  }
+  #navbar ul{
+    padding:0px;
+    margin:0px;
+    display:grid;
+  }
+  #navbar li{
+    padding:10px;
+  }
+  #navbar a{
+    font-size: 30px;
+  }
+  #homelogo{
+    width:135px;
+    padding:10px;
+    margin: auto;
+  }
+  #homelogo a{
+    padding:7px;
+  }
+  #home h1{
+    font-size: 6em;
+    margin-top: 1em;
+  }
+  #home h2{
+    font-size: 2.2em;
+    margin:10px;
+  }
+  #home p{
+    margin: 120px 200px 0px 200px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 900px) {
+  #nav{
+    height:250px;
   }
-  to {
-    transform: rotate(360deg);
+  #navbar{
+    display:grid;
+  }
+  #navbar ul{
+    padding:0px;
+    margin:0px;
+    display:grid;
+  }
+  #navbar li{
+    padding:10px;
+  }
+  #navbar a{
+    font-size: 30px;
+  }
+  #homelogo{
+    width:135px;
+    padding:10px;
+    margin: auto;
+  }
+  #home h1{
+    font-size: 6em;
+    margin-top: 1em;
+  }
+  #home h2{
+    font-size: 2.2em;
+    margin:10px;
+  }
+  #home p{
+    margin: 120px 100px 0px 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  #nav{
+    height:250px;
+  }
+  #navbar{
+    display:grid;
+  }
+  #navbar ul{
+    padding:0px;
+    margin:0px;
+    display:grid;
+  }
+  #navbar li{
+    padding:10px;
+  }
+  #navbar a{
+    font-size: 30px;
+  }
+  #homelogo{
+    width:135px;
+    padding:10px;
+    margin: auto;
+  }
+  #home h1{
+    font-size: 4.8em;
+    margin-top: 1em;
+  }
+  #home h2{
+    font-size: 1.7em;
+    margin:10px;
+  }
+  #home p{
+    margin: 120px 100px 0px 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #nav{
+    height:250px;
+  }
+  #navbar{
+    display:grid;
+  }
+  #navbar ul{
+    padding:0px;
+    margin:0px;
+    display:grid;
+  }
+  #navbar li{
+    padding:10px;
+  }
+  #navbar a{
+    font-size: 30px;
+  }
+  #homelogo{
+    width:135px;
+    padding:10px;
+    margin: auto;
+  }
+
+  #home h1{
+    font-size: 60px;
+    margin-top: 1.5em;
+  }
+  #home h2{
+    font-size: 22px;
+    margin:10px;
+  }
+  #home p{
+    margin:0px;
+    margin-top:60px;
+    padding:40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #nav{
+    height:200px;
+  }
+  #navbar{
+    display:grid;
+  }
+  #navbar ul{
+    padding:0px;
+    margin:0px;
+    display:grid;
+  }
+  #navbar li{
+    padding:5px;
+  }
+  #navbar a{
+    font-size: 15px;
+  }
+  #homelogo{
+    width:100px;
+    padding:10px;
+    margin: auto;
+  }
+
+  #home h1{
+    font-size: 30px;
+    margin-top: 1.5em;
+  }
+  #home h2{
+    font-size: 12px;
+    margin:10px;
+  }
+  #home p{
+    margin:0px;
+    margin-top:30px;
+    padding:20px;
+    font-size: 15px;
+  }
+  #links .logo {
+    width:30px;
+    margin:10px;
   }
 }
