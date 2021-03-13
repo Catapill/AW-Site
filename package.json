@@ -1,7 +1,7 @@
 {
   "name": "aw-site",
   "version": "0.1.0",
-  "homepage": "http://Catapill.github.io/AW-Site",
+  "homepage": "http://catapill.github.io/aw-Site",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
