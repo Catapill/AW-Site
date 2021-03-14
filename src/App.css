@@ -80,6 +80,7 @@ h2{
   font-weight: 400;
   font-size: 25px;
   margin: 150px 600px 0px 600px;
+  padding-bottom:150px;
   text-align: center;
 }
 .footer {
@@ -188,7 +189,7 @@ h2{
 }
 @media screen and (max-width: 1200px) {
   #nav{
-    height:250px;
+    height:290px;
   }
   #navbar{
     display:grid;
@@ -202,7 +203,7 @@ h2{
     padding:10px;
   }
   #navbar a{
-    font-size: 30px;
+    font-size: 40px;
   }
   #homelogo{
     width:135px;
@@ -214,14 +215,14 @@ h2{
   }
   #home h1{
     font-size: 6em;
-    margin-top: 1em;
+    margin-top: 3em;
   }
   #home h2{
     font-size: 2.2em;
     margin:10px;
   }
   #home p{
-    margin: 120px 200px 0px 200px;
+    margin: 160px 200px 0px 200px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -249,7 +250,7 @@ h2{
   }
   #home h1{
     font-size: 6em;
-    margin-top: 1em;
+    margin-top: 2em;
   }
   #home h2{
     font-size: 2.2em;
@@ -330,6 +331,7 @@ h2{
     margin:0px;
     margin-top:60px;
     padding:40px;
+    padding-bottom:100px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -358,7 +360,7 @@ h2{
 
   #home h1{
     font-size: 30px;
-    margin-top: 1.5em;
+    margin-top: 3em;
   }
   #home h2{
     font-size: 12px;
@@ -366,7 +368,50 @@ h2{
   }
   #home p{
     margin:0px;
-    margin-top:30px;
+    margin-top:80px;
+    padding:20px;
+    font-size: 15px;
+  }
+  #links .logo {
+    width:30px;
+    margin:10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #nav{
+    height:200px;
+  }
+  #navbar{
+    display:grid;
+  }
+  #navbar ul{
+    padding:0px;
+    margin:0px;
+    display:grid;
+  }
+  #navbar li{
+    padding:5px;
+  }
+  #navbar a{
+    font-size: 15px;
+  }
+  #homelogo{
+    width:100px;
+    padding:10px;
+    margin: auto;
+  }
+
+  #home h1{
+    font-size: 30px;
+    margin-top: 2em;
+  }
+  #home h2{
+    font-size: 12px;
+    margin:10px;
+  }
+  #home p{
+    margin:0px;
+    margin-top:50px;
     padding:20px;
     font-size: 15px;
   }

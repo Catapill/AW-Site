@@ -4,9 +4,9 @@ import { CardDeck } from 'react-bootstrap';
 //COMPONENTS
 import ProjectCard from './ProjectCard.js'
 //IMAGES
-import ExoProj from './SVG/vis.svg'
-import TextProj from './SVG/text.svg'
-import Awlogo from './SVG/awlogo.svg'
+import ExoProj from './SVG/exoLogo.svg'
+import TextProj from './SVG/textLogo.svg'
+import Awlogo from './SVG/logoSquare.svg'
 
 export default class Project extends Component {
   constructor(props) {
