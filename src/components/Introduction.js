@@ -20,11 +20,11 @@ export default class Home extends Component {
             I do art, design, programming and web development.</p>
             <div className="footer">
               <div id="links">
-                <a href="https://open.spotify.com/user/adam.woods13?si=KFcotWdGS6iOVsaKPHFqzg"><img id="spotifyLogo" className="logo" src={SpotifyLogo}/></a>
-                <a href="https://www.linkedin.com/in/adam-woods-693232202/"><img id="spotifyLogo" className="logo" src={LinkedLogo}/></a>
-                <a href="https://github.com/Catapill"><img id="spotifyLogo" className="logo" src={GitLogo}/></a>
-                <a href="https://bitbucket.org/adamwoods13/"><img id="spotifyLogo" className="logo" src={BitLogo}/></a>
-                <a onClick={() => {navigator.clipboard.writeText("adam.woods13@icloud.com")}}><img id="spotifyLogo" className="logo" src={MailLogo}/></a>
+                <a href="https://open.spotify.com/user/adam.woods13?si=KFcotWdGS6iOVsaKPHFqzg"><img id="spot" className="logo" src={SpotifyLogo}/></a>
+                <a href="https://www.linkedin.com/in/adam-woods-693232202/"><img id="linked" className="logo" src={LinkedLogo}/></a>
+                <a href="https://github.com/Catapill"><img id="git" className="logo" src={GitLogo}/></a>
+                <a href="https://bitbucket.org/adamwoods13/"><img id="bit" className="logo" src={BitLogo}/></a>
+                <a onClick={() => {navigator.clipboard.writeText("adam.woods13@icloud.com")}}><img id="email" className="logo" src={MailLogo}/><span className="tooltip">Copy Email to Clipboard</span></a>
               </div>
             </div>
           </div>

@@ -16,7 +16,7 @@ export default class Project extends Component {
         {
          "title": "Exo-planet Discovery using Machine Learning",
          "desc": "A project that test multiple machine learning models to predict if a star has an orbiting planet.",
-         "time": "12/05/2021",
+         "time": "WIP",
          "img": ExoProj,
          "tag": "/placeholder"
         },
@@ -25,6 +25,20 @@ export default class Project extends Component {
          "desc": "Analysis of thousands of messages between me and my partner and machine learning to predict who is most likely to type a given message.",
          "time": "27/08/2020",
          "img": TextProj,
+         "tag": "/placeholder"
+        },
+        {
+         "title": "Light Curve Search",
+         "desc": "An application that takes a drawing as input and returns a solar system based on what you drew.",
+         "time": "WIP",
+         "img": Awlogo,
+         "tag": "/placeholder"
+        },
+        {
+         "title": "Art Gallary",
+         "desc": "Small art projects and one off designs.",
+         "time": "NEVER!",
+         "img": Awlogo,
          "tag": "/placeholder"
         },
         {

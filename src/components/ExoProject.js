@@ -15,6 +15,25 @@ export default class ExoProject extends Component {
       <div>
         <h1>Exo-planet Discovery Using Machine Learning</h1>
         <h2>An Investigative Project Into Machine Learning Methods Using Satellite Data</h2>
+        <div>
+          Github Links
+          Time Info
+          LANGUAGE Info
+          
+
+        </div>
+        <div>
+          <p>This project was developed as part of my dissertation, It aimed to use satellite data to classify if a light curve was produced by an orbiting planet or if it was just a false positive.
+            WHAT IS A LIGHT curve
+            MODELS Used
+            Methods
+            Results
+
+          </p>
+        </div>
+        <div>
+          Images
+        </div>
       </div>
     )
   }

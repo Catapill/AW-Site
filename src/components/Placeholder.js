@@ -13,7 +13,7 @@ export default class Placeholder extends Component {
   render() {
     return (
       <div>
-        <h1>Page Coming Soon. :)</h1>
+        <h1>Page Coming Soon :)</h1>
       </div>
     )
   }
