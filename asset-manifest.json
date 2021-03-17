@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.38b994b2.chunk.css",
-    "main.js": "/static/js/main.e01354b4.chunk.js",
-    "main.js.map": "/static/js/main.e01354b4.chunk.js.map",
+    "main.css": "/static/css/main.5acc299a.chunk.css",
+    "main.js": "/static/js/main.a65fa09f.chunk.js",
+    "main.js.map": "/static/js/main.a65fa09f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f7838ef7.js",
     "runtime-main.js.map": "/static/js/runtime-main.f7838ef7.js.map",
     "static/js/2.5f806890.chunk.js": "/static/js/2.5f806890.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/3.dbe1f36f.chunk.js": "/static/js/3.dbe1f36f.chunk.js",
     "static/js/3.dbe1f36f.chunk.js.map": "/static/js/3.dbe1f36f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.38b994b2.chunk.css.map": "/static/css/main.38b994b2.chunk.css.map",
+    "static/css/main.5acc299a.chunk.css.map": "/static/css/main.5acc299a.chunk.css.map",
     "static/js/2.5f806890.chunk.js.LICENSE.txt": "/static/js/2.5f806890.chunk.js.LICENSE.txt",
     "static/media/awlogo.b81b9f08.svg": "/static/media/awlogo.b81b9f08.svg",
-    "static/media/App.css": "/static/media/backgroundNet.68408d7f.svg",
+    "static/media/App.css": "/static/media/backgroundNet.80703516.svg",
     "static/media/bitbucketLogo.632a2a1f.svg": "/static/media/bitbucketLogo.632a2a1f.svg",
     "static/media/exoLogo.801424ae.svg": "/static/media/exoLogo.801424ae.svg",
     "static/media/githubLogo.e7f7e616.svg": "/static/media/githubLogo.e7f7e616.svg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.f7838ef7.js",
     "static/js/2.5f806890.chunk.js",
-    "static/css/main.38b994b2.chunk.css",
-    "static/js/main.e01354b4.chunk.js"
+    "static/css/main.5acc299a.chunk.css",
+    "static/js/main.a65fa09f.chunk.js"
   ]
 }
