@@ -41,7 +41,7 @@ export default class ExoProject extends Component {
             <h2>Analysis</h2>
             <p>The data was used to retrive information such as average words, messages and characters per day, a visualisation of the average messages sent hourly.
               A plot of the messages sent over the entire period of the data for each person and finally the frequency of words used.
-              Functionality was also made to eneable searching for words and return who said that word the most.
+              Functionality was also made to enable searching for words and return who said that word the most.
               This project also included one of my earliest experiments using new data with machine learning, in an attempt to classify new messages to see who is more likely to send it.</p>
             <h2>Conclusion</h2>
             <p>This project was purely for fun and worked quite well for the analysis and visualisation as well as the search for who said certain words the most.
