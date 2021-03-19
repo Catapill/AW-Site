@@ -8,13 +8,13 @@ export default class About extends Component {
         <div id="about-left">
 
         <div id="exp">
-          <div class="exp">
+          <div className="exp">
             <h2>Programming</h2>
           </div>
-          <div class="exp">
+          <div className="exp">
             <h2>Web Development</h2>
           </div>
-          <div class="exp">
+          <div className="exp">
             <h2>Design</h2>
           </div>
         </div>
@@ -27,11 +27,11 @@ export default class About extends Component {
 
         <div id="about-right">
 
-          <div class="edu">
+          <div className="edu">
             <h2>Education</h2>
           </div>
 
-          <div class="cv">
+          <div className="cv">
             <h2>CV</h2>
           </div>
 

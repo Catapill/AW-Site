@@ -12,7 +12,7 @@ import TextProject from './components/TextProject.js'
 import Placeholder from './components/Placeholder.js'
 
 //IMAGES
-import AwLogo from './components/SVG/awlogo.svg';
+import AwLogo from './components/img/awlogo.svg';
 
 class App extends Component {
   render() {
@@ -31,6 +31,7 @@ class App extends Component {
               </ul>
             </div>
           </nav>
+        </div>
         <Switch>
            <Route exact path="/">
             <Introduction />
@@ -56,8 +57,7 @@ class App extends Component {
            <Route path="*">
             404 Not Found
            </Route>
-         </Switch>
-        </div>
+        </Switch>
       </Router>
     );
   }

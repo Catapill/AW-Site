@@ -13,9 +13,9 @@ body {
   font-family: 'Josefin Slab', serif;
   background-color: #121B2E;
   color: #fff;
-  background-image: url("components/SVG/backgroundNet.svg");
+  background-image: url("components/img/backgroundNet.svg");
   background-repeat: repeat-y;
-  background-size:cover;
+  background-size: 100%;
 }
 
 h1{
@@ -31,6 +31,10 @@ h2{
 }
 p{
   font-size: 20px;
+}
+a{
+  color:#fff;
+  text-decoration: none;
 }
 #nav{
   background: rgba(0,0,0, 0.25);
@@ -187,6 +191,88 @@ p{
 #about-right{
   float:right;
 }
+
+.project .projectGroup {
+  width:100%;
+  display:inline-grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+.project .projHeader {
+  display:inline-grid;
+  grid-template-columns: 1fr 8fr;
+  text-align: left;
+}
+.project .projHeader h1 {
+  font-weight: 300;
+}
+.project .projHeader img{
+  width:180px;
+  margin:0px 50px 0px 50px;
+}
+.projectGroup .ProjectSect{
+  margin:20px;
+  background: rgba(0,0,0, 0.25);
+  height:100%;
+}
+.ProjectSect p{
+  margin:30px;
+}
+#projectInfo button{
+  padding-top:16px;
+  width:60%;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  font-size:65px;
+  text-transform: uppercase;
+  background-color:#1e2843;
+  border-radius: 12px;
+  border: none;
+  color: 	#586074;
+  display:inline;
+  text-align: center;
+  margin:2% 20% 2% 20%;
+  border:2px hidden;
+}
+#projectInfo button:hover{
+  cursor: pointer;
+  border-style: solid;
+}
+#projectInfo button:active{
+  border:1px none;
+}
+#projectInfo button a{
+  color: #586074;
+}
+#projectInfo button img{
+  margin-right:30px;
+  width:50px;
+}
+#projectInfo p{
+  text-align: left;
+}
+#projectInfo p span{
+  float:right;
+}
+#projectInfo .button{
+  height:200px;
+}
+#projectDisplay .imageCollect {
+  height:550px;
+  overflow-y:scroll;
+}
+#projectDisplay img {
+  width:90%;
+}
+.imageCollect::-webkit-scrollbar {
+  display: none;
+}
+.imageCollect {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* MEDIA QUERIES */
 @media screen and (max-width: 1600px) {
   #navbar li{
     padding:0px;

@@ -1,7 +1,12 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { CardDeck } from 'react-bootstrap';
 //COMPONENTS
+
+//IMAGES
+import BitLogo from './img/bitbucketLogo.svg'
+import ExoProj from './img/exoLogo.svg'
+import RFtree from './img/RFtree.png'
+import NNarch from './img/NNarch.svg'
+import ExoVis from './img/exoVis.svg'
 
 export default class ExoProject extends Component {
   constructor(props) {
@@ -12,27 +17,51 @@ export default class ExoProject extends Component {
   }
   render() {
     return (
-      <div>
-        <h1>Exo-planet Discovery Using Machine Learning</h1>
-        <h2>An Investigative Project Into Machine Learning Methods Using Satellite Data</h2>
+      <div className="project">
+      <div className="projHeader">
+        <img src={ExoProj} alt="Project Icon"></img>
         <div>
-          Github Links
-          Time Info
-          LANGUAGE Info
-          
-
+          <h1>Exo-planet Discovery Using Machine Learning</h1>
+          <h2>An Investigative Project Into Machine Learning Methods Using Satellite Data</h2>
         </div>
-        <div>
-          <p>This project was developed as part of my dissertation, It aimed to use satellite data to classify if a light curve was produced by an orbiting planet or if it was just a false positive.
-            WHAT IS A LIGHT curve
-            MODELS Used
-            Methods
-            Results
+      </div>
+        <div className="projectGroup">
+          <div id="projectInfo" className="ProjectSect">
+            <h2>Links</h2>
+            <div className="buttons">
+              <button><a href="https://bitbucket.org/adamwoods13/exo-planet"><img src={BitLogo} alt="Repo Icon"></img>Repo</a></button>
+            </div>
+            <h2>Project Info</h2>
+            <p>PROJECT TYPE: <span>Programming</span></p>
+            <p>LANGUAGE: <span>Python, LaTeX</span></p>
+            <p>SKILLS: <span>Machine Learning, Data Analysis, Writing</span></p>
+            <p>TIME: <span>20/10/2020 - CURRENT</span></p>
+            <p>TAGS: Keras, Sklearn, Data Analysis, Machine Learning, Exo-planets, Python, LaTeX, Light curves</p>
+          </div>
 
-          </p>
-        </div>
-        <div>
-          Images
+          <div id="projectContent" className="ProjectSect">
+            <h2>What is a light curve?</h2>
+            <p>A light curve is the folded light intensity of a star over time, as an object passes in front of the star the light intesity dips creating a curve.
+              The object that makes the curve could be a planet, eclipsing binary star or simply a oulier due to noise.
+              This project uses this data to classify light curves into planet candidates and false positives using a variety of machine learning methods.
+              The data was collected from Nasa's Exoplanet Archive, it was downloaded and processed using a Python package called LightKurve.</p>
+            <h2>Models</h2>
+            <p>The models used in this project include Random Forest, Convolutional Neural Network, Gaussian Process Classifier and Support Vector Machine.
+              They were chosen due to a study of the literature surrounding the data and their performance when solving similar problems.
+              The models were built using Python packages Sklearn and Keras.</p>
+            <h2>Conclusion</h2>
+            <p>The project worked well with all models reaching an accuracy above 90%. The Convolutional Nerual Network performed the best at %93.?? accuracy.
+              The dissertation was written in LaTeX and goes into detail about all results and the development of the models.</p>
+          </div>
+
+          <div id="projectDisplay" className="ProjectSect">
+            <h2>Images</h2>
+            <div className="imageCollect">
+              <img src={RFtree} alt="RF Tree"></img>
+              <img src={ExoVis} alt="Light Curve"></img>
+              <img src={NNarch} alt="NN Architecture"></img>
+            </div>
+          </div>
         </div>
       </div>
     )

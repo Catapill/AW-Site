@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
 //IMAGES
-import SpotifyLogo from './SVG/spotifyLogo.svg'
-import LinkedLogo from './SVG/inLogo.svg'
-import GitLogo from './SVG/githubLogo.svg'
-import BitLogo from './SVG/bitbucketLogo.svg'
-import MailLogo from './SVG/gmailLogo.svg'
+import SpotifyLogo from './img/spotifyLogo.svg'
+import LinkedLogo from './img/inLogo.svg'
+import GitLogo from './img/githubLogo.svg'
+import BitLogo from './img/bitbucketLogo.svg'
+import MailLogo from './img/gmailLogo.svg'
 
 export default class Home extends Component {
   render() {
