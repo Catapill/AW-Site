@@ -209,12 +209,12 @@ a{
   width:180px;
   margin:0px 50px 0px 50px;
 }
-.projectGroup .ProjectSect{
+.projectGroup .projectSect{
   margin:20px;
   background: rgba(0,0,0, 0.25);
   height:100%;
 }
-.ProjectSect p{
+.projectSect p{
   margin:30px;
 }
 #projectInfo button{
@@ -302,6 +302,22 @@ a{
     padding:5px;
     margin-top: 50px;
   }
+  .projHeader h1{
+    font-size:40px;
+  }
+  .projHeader h2{
+    font-size:25px;
+  }
+  .project .projHeader img{
+    width:150px;
+  }
+  #projectDisplay .imageCollect {
+    height:500px;
+  }
+  #projectInfo button{
+    width:80%;
+    margin:2% 10% 2% 10%;
+  }
 }
 @media screen and (max-width: 1200px) {
   #nav{
@@ -352,6 +368,29 @@ a{
   .card-footer {
     padding:15px;
     margin-top: 100px;
+  }
+  .projHeader h1{
+    font-size:35px;
+  }
+  .projHeader h2{
+    font-size:20px;
+    font-weight:600;
+  }
+  .project .projHeader img{
+    width:120px;
+  }
+  #projectDisplay .imageCollect {
+    height:680px;
+  }
+  #projectInfo button{
+    width:90%;
+    margin:2% 5% 2% 5%;
+  }
+  #projectInfo p {
+    margin: 35px;
+  }
+  #projectInfo p span{
+    float:left;
   }
 }
 @media screen and (max-width: 900px) {
@@ -414,6 +453,37 @@ a{
     padding:5px;
     margin:0px;
     margin-top:40px;
+  }
+
+  .project .projectGroup {
+    display:block;
+  }
+  .projectGroup .projectSect {
+    padding:20px;
+    margin:0px 30px 30px 30px;
+  }
+  .projHeader h1{
+    font-size:25px;
+  }
+  .projHeader h2{
+    font-size:20px;
+    font-weight:600;
+  }
+  .project .projHeader img{
+    width:120px;
+  }
+  #projectDisplay .imageCollect {
+    height:680px;
+  }
+  #projectInfo button{
+    width:80%;
+    margin:2% 10% 2% 10%;
+  }
+  #projectInfo p {
+    margin: 35px;
+  }
+  #projectInfo p span{
+    float:right;
   }
 }
 @media screen and (max-width: 768px) {
@@ -591,6 +661,43 @@ a{
     padding:5px;
     margin-top: 70px;
     font-size: 20px;
+  }
+
+  .project .projHeader {
+    display: block;
+    text-align: center;
+  }
+  .projHeader h1{
+    font-size:25px;
+    margin:15px;
+  }
+  .project .projHeader img{
+    width:150px;
+  }
+  .projectSect p {
+    margin:10px;
+  }
+  #projectDisplay .imageCollect {
+    height:680px;
+  }
+  #projectInfo button{
+    width:95%;
+    margin:2% 2.5% 2% 2.5%;
+    font-size:50px;
+  }
+  #projectInfo button img{
+    width:40px;
+    margin-right: 10px;
+  }
+  #projectInfo p {
+    margin: 15px 3px 15px 3px;
+    font-size: 15px;
+  }
+  #projectInfo p span{
+    float:right;
+  }
+  .projectSect p {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 320px) {

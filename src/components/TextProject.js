@@ -25,16 +25,16 @@ export default class ExoProject extends Component {
         </div>
       </div>
         <div className="projectGroup">
-          <div id="projectInfo" className="ProjectSect">
+          <div id="projectInfo" className="projectSect">
             <h2>Project Info</h2>
             <p>PROJECT TYPE: <span>Programming</span></p>
             <p>LANGUAGE: <span>Python</span></p>
-            <p>SKILLS: <span>Machine Learning, Data Analysis</span></p>
             <p>TIME: <span>23/07/2020 - 27/08/2020</span></p>
+            <p>SKILLS: Machine Learning, Data Analysis</p>
             <p>TAGS: Keras, Data Analysis, Machine Learning, Text Data, Python, Visualisation</p>
           </div>
 
-          <div id="projectContent" className="ProjectSect">
+          <div id="projectContent" className="projectSect">
             <h2>Message Data</h2>
             <p>The data used for this project was pulled from WhatsApp chats, one set of messages from me and my partner and one group chat I have with some friends.
               The data was processed using Python packages Pandas and Numpy.</p>
@@ -48,7 +48,7 @@ export default class ExoProject extends Component {
               However, trouble was encoutered when developing the machine learning section as reliable results were not obtained, in the future I plan to return to this with additional data and knowldge.</p>
           </div>
 
-          <div id="projectDisplay" className="ProjectSect">
+          <div id="projectDisplay" className="projectSect">
             <h2>Images</h2>
             <div className="imageCollect">
               <img src={TextVis} alt="Text Visualisation"></img>
