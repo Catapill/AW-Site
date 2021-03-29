@@ -8,8 +8,19 @@ import About from './components/About.js'
 import Personal from './components/Personal.js'
 import Introduction from './components/Introduction'
 import ExoProject from './components/ExoProject.js'
+import LCSearchProject from './components/LCSearchProject.js'
 import TextProject from './components/TextProject.js'
+import Gallary from './components/Gallary.js'
 import Placeholder from './components/Placeholder.js'
+
+import Sammy from './components/sam/Sammy.js'
+import Wrong from './components/sam/Wrong.js'
+import Qtwo from './components/sam/Qtwo.js'
+import Qthree from './components/sam/Qthree.js'
+import Qfour from './components/sam/Qfour.js'
+import Qfive from './components/sam/Qfive.js'
+import Happybirthday from './components/sam/Happybirthday.js'
+
 
 //IMAGES
 import AwLogo from './components/img/awlogo.svg';
@@ -51,9 +62,38 @@ class App extends Component {
            <Route path="/textProject">
             <TextProject />
            </Route>
+           <Route path="/LCSearchProject">
+            <LCSearchProject />
+           </Route>
+           <Route path="/Gallary">
+            <Gallary />
+           </Route>
            <Route path="/placeholder">
             <Placeholder />
            </Route>
+
+           <Route path="/Sammy">
+            <Sammy />
+           </Route>
+           <Route path="/Wrong">
+            <Wrong />
+           </Route>
+           <Route path="/Qtwo">
+            <Qtwo />
+           </Route>
+           <Route path="/Qthree">
+            <Qthree />
+           </Route>
+           <Route path="/Qfour">
+            <Qfour />
+           </Route>
+           <Route path="/Qfive">
+            <Qfive />
+           </Route>
+           <Route path="/Happybirthday">
+            <Happybirthday />
+           </Route>
+
            <Route path="*">
             404 Not Found
            </Route>

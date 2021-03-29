@@ -27,7 +27,7 @@ export default class Project extends Component {
          "desc": "Analysis of thousands of messages between me and my partner and machine learning to predict who is most likely to type a given message.",
          "time": "27/08/2020",
          "img": TextProj,
-         "tag": "/textProject"
+         "tag": "/TextProject"
         },
         {
          "title": "Light Curve Search",
@@ -41,7 +41,7 @@ export default class Project extends Component {
          "desc": "Small art projects and one off designs.",
          "time": "NEVER!",
          "img": ArtProj,
-         "tag": "/placeholder"
+         "tag": "/Gallary"
         },
         {
          "title": "More Coming Soon",
