@@ -9,6 +9,7 @@ import TextProj from './img/textLogo.svg'
 import Awlogo from './img/logoSquare.svg'
 import ArtProj from './img/artLogo.svg'
 import LCSProj from './img/LCSLogo.svg'
+import TUGProj from './img/tugLogo.svg'
 
 export default class Project extends Component {
   constructor(props) {
@@ -34,7 +35,14 @@ export default class Project extends Component {
          "desc": "An application that takes a drawing as input and returns a solar system based on what you drew.",
          "time": "WIP",
          "img": LCSProj,
-         "tag": "/placeholder"
+         "tag": "/LCSearchProject "
+        },
+        {
+         "title": "Timed Stand Up and Go Test Analysis",
+         "desc": "An analysis and auto segmentation of TUG test data using machine learning.",
+         "time": "WIP",
+         "img": TUGProj,
+         "tag": "/TUGProject"
         },
         {
          "title": "Art Gallary",

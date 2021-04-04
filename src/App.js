@@ -10,16 +10,10 @@ import Introduction from './components/Introduction'
 import ExoProject from './components/ExoProject.js'
 import LCSearchProject from './components/LCSearchProject.js'
 import TextProject from './components/TextProject.js'
+import TUGProject from './components/TUGProject.js'
 import Gallary from './components/Gallary.js'
 import Placeholder from './components/Placeholder.js'
-
-import Sammy from './components/sam/Sammy.js'
-import Wrong from './components/sam/Wrong.js'
-import Qtwo from './components/sam/Qtwo.js'
-import Qthree from './components/sam/Qthree.js'
-import Qfour from './components/sam/Qfour.js'
-import Qfive from './components/sam/Qfive.js'
-import Happybirthday from './components/sam/Happybirthday.js'
+import ScrollToTop from './components/ScrollToTop.js'
 
 
 //IMAGES
@@ -43,61 +37,43 @@ class App extends Component {
             </div>
           </nav>
         </div>
-        <Switch>
-           <Route exact path="/">
-            <Introduction />
-           </Route>
-           <Route path="/projects">
-            <Projects />
-           </Route>
-           <Route path="/about">
-            <About />
-           </Route>
-           <Route path="/personal">
-            <Personal />
-           </Route>
-           <Route path="/exoProject">
-            <ExoProject />
-           </Route>
-           <Route path="/textProject">
-            <TextProject />
-           </Route>
-           <Route path="/LCSearchProject">
-            <LCSearchProject />
-           </Route>
-           <Route path="/Gallary">
-            <Gallary />
-           </Route>
-           <Route path="/placeholder">
-            <Placeholder />
-           </Route>
+          <ScrollToTop />
+          <Switch>
+             <Route exact path="/">
+              <Introduction />
+             </Route>
+             <Route path="/projects">
+              <Projects />
+             </Route>
+             <Route path="/about">
+              <About />
+             </Route>
+             <Route path="/personal">
+              <Personal />
+             </Route>
+             <Route path="/exoProject">
+              <ExoProject />
+             </Route>
+             <Route path="/textProject">
+              <TextProject />
+             </Route>
+             <Route path="/LCSearchProject">
+              <LCSearchProject />
+             </Route>
+             <Route path="/TUGProject">
+              <TUGProject />
+             </Route>
+             <Route path="/Gallary">
+              <Gallary />
+             </Route>
+             <Route path="/placeholder">
+              <Placeholder />
+             </Route>
 
-           <Route path="/Sammy">
-            <Sammy />
-           </Route>
-           <Route path="/Wrong">
-            <Wrong />
-           </Route>
-           <Route path="/Qtwo">
-            <Qtwo />
-           </Route>
-           <Route path="/Qthree">
-            <Qthree />
-           </Route>
-           <Route path="/Qfour">
-            <Qfour />
-           </Route>
-           <Route path="/Qfive">
-            <Qfive />
-           </Route>
-           <Route path="/Happybirthday">
-            <Happybirthday />
-           </Route>
-
-           <Route path="*">
-            404 Not Found
-           </Route>
-        </Switch>
+             <Route path="*">
+              404 Not Found
+             </Route>
+          </Switch>
       </Router>
     );
   }

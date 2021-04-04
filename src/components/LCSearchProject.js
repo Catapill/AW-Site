@@ -2,11 +2,12 @@ import React, { Component } from 'react'
 //COMPONENTS
 
 //IMAGES
-import BitLogo from './img/bitbucketLogo.svg'
+import GitLogo from './img/githubLogo.svg'
 import LCSLogo from './img/LCSLogo.svg'
-import RFtree from './img/RFtree.png'
-import NNarch from './img/NNarch.svg'
-import ExoVis from './img/exoVis.svg'
+import SimOne from './img/similarityOne.png'
+import SimTwo from './img/similarityTwo.png'
+import NoiseOne from './img/noiseOne.png'
+import NoiseTwo from './img/noiseTwo.png'
 
 export default class LCSearchProject extends Component {
   constructor(props) {
@@ -29,14 +30,14 @@ export default class LCSearchProject extends Component {
           <div id="projectInfo" className="projectSect">
             <h2>Links</h2>
             <div className="buttons">
-              <button><a href="https://bitbucket.org/adamwoods13/exo-planet"><img src={BitLogo} alt="Repo Icon"></img>Repo</a></button>
+              <button><a href="https://github.com/Catapill/LightCurveSearch"><img src={GitLogo} alt="Repo Icon"></img>Repo</a></button>
             </div>
             <h2>Project Info</h2>
             <p>PROJECT TYPE: <span>Programming</span></p>
             <p>LANGUAGE: <span>Python</span></p>
             <p>TIME: <span>18/02/2021 - CURRENT</span></p>
             <p>SKILLS: Machine Learning, Data Analysis, Writing</p>
-            <p>TAGS: Keras, Sklearn, Data Analysis, Machine Learning, Exo-planets, Python, Light curves, Tkinter</p>
+            <p>TAGS: Keras, Sklearn, Data Analysis, Machine Learning, Exo-planets, Python, Light curves, Tkinter, Notebook</p>
           </div>
 
           <div id="projectContent" className="projectSect">
@@ -45,17 +46,22 @@ export default class LCSearchProject extends Component {
               The object that makes the curve could be a planet, eclipsing binary star or simply a oulier due to noise.
               This project takes user input in the form of a drawing and uses machine learning to return five similar light curves using fuzzy logic.</p>
             <h2>Models</h2>
-            <p>Model information coming soon</p>
+            <p>The model used is a Naive Bayes classifier which uses the kepler ID as a label.
+              Because each kepler ID only has one associated light curve I needed to create some synthetic data to train the model.
+              This was done by generating noise and applying that noise to the light curve, and example of this can be seen in the first two images.</p>
             <h2>Conclusion</h2>
-            <p>Conclusion coming soon</p>
+            <p>The model worked well as some light curve searches can be seen in the images section.
+              The model returns a similar light curve and produces a link to the exoplanet archive of the system the light curve originates.
+              Here you can see a lot of information about the system and the planet if there was one.</p>
           </div>
 
           <div id="projectDisplay" className="projectSect">
             <h2>Images</h2>
             <div className="imageCollect">
-              <img src={RFtree} alt="RF Tree"></img>
-              <img src={ExoVis} alt="Light Curve"></img>
-              <img src={NNarch} alt="NN Architecture"></img>
+              <img src={NoiseOne} alt="original light curve"></img>
+              <img src={NoiseTwo} alt="noise generated light curves"></img>
+              <img src={SimOne} alt="similarity light curve"></img>
+              <img src={SimTwo} alt="similarity light curve"></img>
             </div>
           </div>
         </div>

@@ -29,6 +29,12 @@ h2{
   color: #B8B8B8;
   text-transform: uppercase;
 }
+h3{
+  font-weight: 600;
+  font-size:30px;
+  color: #B8B8B8;
+  text-transform: uppercase;
+}
 p{
   font-size: 20px;
 }
@@ -165,31 +171,47 @@ a{
 }
 
 #about{
-  float:left;
+  display:inline-grid;
+  grid-template-columns: 1fr 1fr;
+}
+#about p {
+  font-size:23px;
 }
 
 #about-left{
-  float:left;
-}
-#current{
-  width:100%;
-}
-#current .current{
-  background: rgba(0,0,0, 0.25);
 }
 #exp {
-  display:inline;
-  width:100%;
+  display:inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 #exp .exp{
   float:left;
-  margin:40px;
-  width:250px;
+  margin:20px;
   height:400px;
   background: rgba(0,0,0, 0.25);
 }
+#exp .exp h2{
+  height:70px;
+}
+#current {
+  background: rgba(0,0,0, 0.25);
+  margin:20px;
+  height:395px;
+}
+#current h2 {
+  padding:25px;
+}
 #about-right{
   float:right;
+  margin:20px;
+}
+#about-right .edu{
+  background: rgba(0,0,0, 0.25);
+  margin:20px;
+}
+#about-right .cv{
+  background: rgba(0,0,0, 0.25);
+  margin:20px;
 }
 
 .project .projectGroup {
