@@ -35,7 +35,7 @@ export default class Project extends Component {
          "desc": "An application that takes a drawing as input and returns a solar system based on what you drew.",
          "time": "WIP",
          "img": LCSProj,
-         "tag": "/LCSearchProject "
+         "tag": "/LCSearchProject"
         },
         {
          "title": "Timed Stand Up and Go Test Analysis",

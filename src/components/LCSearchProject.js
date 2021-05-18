@@ -35,7 +35,7 @@ export default class LCSearchProject extends Component {
             <h2>Project Info</h2>
             <p>PROJECT TYPE: <span>Programming</span></p>
             <p>LANGUAGE: <span>Python</span></p>
-            <p>TIME: <span>18/02/2021 - CURRENT</span></p>
+            <p>TIME: <span>18/02/2021 - 07/05/2021</span></p>
             <p>SKILLS: Machine Learning, Data Analysis, Writing</p>
             <p>TAGS: Keras, Sklearn, Data Analysis, Machine Learning, Exo-planets, Python, Light curves, Tkinter, Notebook</p>
           </div>
@@ -48,11 +48,12 @@ export default class LCSearchProject extends Component {
             <h2>Models</h2>
             <p>The model used is a Naive Bayes classifier which uses the kepler ID as a label.
               Because each kepler ID only has one associated light curve I needed to create some synthetic data to train the model.
-              This was done by generating noise and applying that noise to the light curve, and example of this can be seen in the first two images.</p>
+              This was done by generating noise and applying that noise to the light curve, and example of this can be seen in the first two images.
+              Fuzzy logic is applied to combine the model's prediction and euclidean distance to get the best result.</p>
             <h2>Conclusion</h2>
             <p>The model worked well as some light curve searches can be seen in the images section.
-              The model returns a similar light curve and produces a link to the exoplanet archive of the system the light curve originates.
-              Here you can see a lot of information about the system and the planet if there was one.</p>
+              The model returns a similar light curve and produces a link to the exoplanet archive of the returned solar system.
+              Here you can see a lot of information about the solar system.</p>
           </div>
 
           <div id="projectDisplay" className="projectSect">

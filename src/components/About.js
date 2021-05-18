@@ -51,21 +51,14 @@ export default class About extends Component {
             <h3>University</h3>
               <p>Northumbria University</p>
               <p>Computer Science with Artificial Intelligence</p>
+            <h3>Courses</h3>
               <p>Web Application Integration</p>
               <p>Web Programming</p>
-              <p>Machine Learning and Computer Vision</p>
-              <p>Human Computer Interaction</p>
+              <p>Machine Learning, AI and Computer Vision</p>
               <p>Computer Networks, Security and OS</p>
               <p>Program Design and Development</p>
               <p>Systems Analysis</p>
-              <p>AI and Robotics</p>
-              <p>Team Project and Professionalism</p>
           </div>
-
-          <div className="cv">
-            <h2>CV</h2>
-          </div>
-
         </div>
       </div>
     )

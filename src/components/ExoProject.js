@@ -34,7 +34,7 @@ export default class ExoProject extends Component {
             <h2>Project Info</h2>
             <p>PROJECT TYPE: <span>Programming</span></p>
             <p>LANGUAGE: <span>Python, LaTeX</span></p>
-            <p>TIME: <span>20/10/2020 - CURRENT</span></p>
+            <p>TIME: <span>20/10/2020 - 19/05/2021</span></p>
             <p>SKILLS: Machine Learning, Data Analysis, Writing</p>
             <p>TAGS: Keras, Sklearn, Data Analysis, Machine Learning, Exo-planets, Python, LaTeX, Light curves</p>
           </div>

@@ -5,7 +5,6 @@ import './App.css';
 //COMPONENTS
 import Projects from './components/Projects.js'
 import About from './components/About.js'
-import Personal from './components/Personal.js'
 import Introduction from './components/Introduction'
 import ExoProject from './components/ExoProject.js'
 import LCSearchProject from './components/LCSearchProject.js'
@@ -31,8 +30,7 @@ class App extends Component {
               </div>
               <ul>
                 <li><NavLink activeClassName="selected" to="/projects">PROJECTS</NavLink></li>
-                <li><NavLink activeClassName="selected" to="/placeholder">ABOUT ME</NavLink></li>
-                <li><NavLink activeClassName="selected" to="/placeholder">PERSONAL</NavLink></li>
+                <li><NavLink activeClassName="selected" to="/about">ABOUT ME</NavLink></li>
               </ul>
             </div>
           </nav>
@@ -47,9 +45,6 @@ class App extends Component {
              </Route>
              <Route path="/about">
               <About />
-             </Route>
-             <Route path="/personal">
-              <Personal />
              </Route>
              <Route path="/exoProject">
               <ExoProject />
