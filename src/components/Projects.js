@@ -19,7 +19,7 @@ export default class Project extends Component {
         {
          "title": "Exo-planet Discovery using Machine Learning",
          "desc": "A project that test multiple machine learning models to predict if a star has an orbiting planet.",
-         "time": "WIP",
+         "time": "19/06/2021",
          "img": ExoProj,
          "tag": "/ExoProject"
         },
@@ -33,14 +33,14 @@ export default class Project extends Component {
         {
          "title": "Light Curve Search",
          "desc": "An application that takes a drawing as input and returns a solar system based on what you drew.",
-         "time": "WIP",
+         "time": "07/05/2021",
          "img": LCSProj,
          "tag": "/LCSearchProject"
         },
         {
          "title": "Timed Stand Up and Go Test Analysis",
          "desc": "An analysis and auto segmentation of TUG test data using machine learning.",
-         "time": "WIP",
+         "time": "07/05/2021",
          "img": TUGProj,
          "tag": "/TUGProject"
         },

@@ -35,7 +35,7 @@ export default class TUGProject extends Component {
             <h2>Project Info</h2>
             <p>PROJECT TYPE: <span>Programming</span></p>
             <p>LANGUAGE: <span>Python</span></p>
-            <p>TIME: <span>18/02/2021 - CURRENT</span></p>
+            <p>TIME: <span>18/02/2021 - 07/05/2021</span></p>
             <p>SKILLS: Machine Learning, Data Analysis, Writing</p>
             <p>TAGS:Sklearn, Data Analysis, Machine Learning, Time Series, Python, Segmentation</p>
           </div>

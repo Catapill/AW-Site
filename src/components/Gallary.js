@@ -15,6 +15,8 @@ import Wraith from './img/wraith.png'
 import Lander from './img/spaceship.png'
 import Cave from './img/cave.jpg'
 import Walker from './img/walker.jpg'
+import Blackhole from './img/blackhole.png'
+import Greenworld from './img/greenworld.png'
 
 export default class Gallary extends Component {
   constructor(props) {
@@ -47,6 +49,12 @@ export default class Gallary extends Component {
           </figure>
           <figure class="gallery__item gallery__item--7">
             <img src={Walker} class="gallery__img" alt="Image 7"></img>
+          </figure>
+          <figure class="gallery__item gallery__item--8">
+            <img src={Blackhole} class="gallery__img" alt="Image 8"></img>
+          </figure>
+          <figure class="gallery__item gallery__item--9">
+            <img src={Greenworld} class="gallery__img" alt="Image 9"></img>
           </figure>
         </div>
         <h2>More Coming Soon!</h2>
