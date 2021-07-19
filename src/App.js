@@ -10,7 +10,7 @@ import ExoProject from './components/ExoProject.js'
 import LCSearchProject from './components/LCSearchProject.js'
 import TextProject from './components/TextProject.js'
 import TUGProject from './components/TUGProject.js'
-import Gallary from './components/Gallary.js'
+import Gallery from './components/Gallery.js'
 import Cvpage from './components/Cvpage.js'
 import Placeholder from './components/Placeholder.js'
 import ScrollToTop from './components/ScrollToTop.js'
@@ -59,8 +59,8 @@ class App extends Component {
              <Route path="/TUGProject">
               <TUGProject />
              </Route>
-             <Route path="/Gallary">
-              <Gallary />
+             <Route path="/Gallery">
+              <Gallery />
              </Route>
              <Route path="/Cvpage">
               <Cvpage />

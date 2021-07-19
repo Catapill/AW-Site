@@ -278,6 +278,7 @@ a{
 }
 .projectSect p{
   margin:30px;
+  line-height: 1.6;
 }
 #projectInfo button{
   padding-top:16px;
@@ -451,8 +452,11 @@ a{
   .project .projHeader img{
     width:150px;
   }
+  .projectSect p{
+    line-height: 1.6;
+  }
   #projectDisplay .imageCollect {
-    height:500px;
+    height:600px;
   }
   #projectInfo button{
     width:80%;
@@ -461,7 +465,7 @@ a{
 }
 @media screen and (max-width: 1200px) {
   #nav{
-    height:290px;
+    height:250px;
   }
   #navbar{
     display:grid;
@@ -520,7 +524,7 @@ a{
     width:120px;
   }
   #projectDisplay .imageCollect {
-    height:680px;
+    height:600px;
   }
   #projectInfo button{
     width:90%;
@@ -539,7 +543,7 @@ a{
     background-position: center;
   }
   #nav{
-    height:250px;
+    height:200px;
   }
   #navbar{
     display:grid;
@@ -613,7 +617,7 @@ a{
     width:120px;
   }
   #projectDisplay .imageCollect {
-    height:680px;
+    height:600px;
   }
   #projectInfo button{
     width:80%;
@@ -628,7 +632,7 @@ a{
 }
 @media screen and (max-width: 768px) {
   #nav{
-    height:250px;
+    height:200px;
   }
   #navbar{
     display:grid;
@@ -679,10 +683,13 @@ a{
     padding:5px;
     margin-top: 70px;
   }
+  #projectDisplay .imageCollect {
+    height:500px;
+  }
 }
 @media screen and (max-width: 600px) {
   #nav{
-    height:250px;
+    height:200px;
   }
   #navbar{
     display:grid;
@@ -741,7 +748,7 @@ a{
 }
 @media screen and (max-width: 480px) {
   #nav{
-    height:200px;
+    height:160px;
   }
   #navbar{
     display:grid;
@@ -818,7 +825,7 @@ a{
     margin:10px;
   }
   #projectDisplay .imageCollect {
-    height:680px;
+    height:300px;
   }
   #projectInfo button{
     width:95%;
@@ -842,7 +849,7 @@ a{
 }
 @media screen and (max-width: 320px) {
   #nav{
-    height:200px;
+    height:160px;
   }
   #navbar{
     display:grid;

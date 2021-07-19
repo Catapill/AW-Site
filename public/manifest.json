@@ -3,23 +3,29 @@
   "name": "Adam Woods",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "awicon.svg",
+      "sizes": "545x545",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/https://www.adamwoods.dev",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#2196f3",
+  "background_color": "#121b2e",
+  "@context": "http://www.schema.org",
+  "@type": "person",
+  "name": "Adam Woods",
+  "jobTitle": "Data Analyst",
+  "url": "https://www.adamwoods.dev",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "322 School Road, Crookes",
+    "addressLocality": "Sheffield",
+    "addressRegion": "South Yorkshire",
+    "postalCode": "S10 1GR",
+    "addressCountry": "United Kingdom"
+    },
+  "email": "adam.woods13@icloud.com",
+  "telephone": "+44 07939293075",
+  "birthDate": "1998-11-08"
 }

@@ -45,11 +45,11 @@ export default class Project extends Component {
          "tag": "/TUGProject"
         },
         {
-         "title": "Art Gallary",
+         "title": "Art Gallery",
          "desc": "Small art projects and one off designs.",
          "time": "NEVER!",
          "img": ArtProj,
-         "tag": "/Gallary"
+         "tag": "/Gallery"
         },
         {
          "title": "More Coming Soon",

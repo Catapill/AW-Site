@@ -18,7 +18,7 @@ import Walker from './img/walker.jpg'
 import Blackhole from './img/blackhole.png'
 import Greenworld from './img/greenworld.png'
 
-export default class Gallary extends Component {
+export default class Gallery extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -27,7 +27,7 @@ export default class Gallary extends Component {
   }
   render() {
     return (
-      <div className="gallaryPage">
+      <div className="galleryPage">
         <div class="gallery">
           <figure class="gallery__item gallery__item--1">
             <img src={Nightsky} class="gallery__img" alt="Image 1"></img>
