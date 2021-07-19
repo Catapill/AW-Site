@@ -14,7 +14,7 @@ export default class About extends Component {
               <p>Java</p>
             </div>
             <div className="exp">
-              <h2>Web Development</h2>
+              <h2>Web Dev</h2>
               <p>JavaScript</p>
               <p>React</p>
               <p>PHP</p>
@@ -37,6 +37,10 @@ export default class About extends Component {
             <p><a>TUG_Analysis Project</a></p>
             <p>Portfolio Development</p>
             <p>Google's Foobar Challenge</p>
+          </div>
+
+          <div className="buttons">
+            <a href="/#/cvpage"><button>CV</button></a>
           </div>
         </div>
 
