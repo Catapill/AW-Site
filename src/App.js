@@ -11,7 +11,6 @@ import LCSearchProject from './components/LCSearchProject.js'
 import TextProject from './components/TextProject.js'
 import TUGProject from './components/TUGProject.js'
 import Gallery from './components/Gallery.js'
-import Cvpage from './components/Cvpage.js'
 import Placeholder from './components/Placeholder.js'
 import ScrollToTop from './components/ScrollToTop.js'
 
@@ -61,9 +60,6 @@ class App extends Component {
              </Route>
              <Route path="/Gallery">
               <Gallery />
-             </Route>
-             <Route path="/Cvpage">
-              <Cvpage />
              </Route>
              <Route path="/placeholder">
               <Placeholder />

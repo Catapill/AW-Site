@@ -243,15 +243,6 @@ a{
   width:50px;
 }
 
-/*CV*/
-
-#cv_container {
-  margin-right:160px;
-}
-
-#cv_container embed {
-  text-align: left;
-}
 
 /*PROJECTS*/
 .project .projectGroup {
@@ -462,6 +453,9 @@ a{
     width:80%;
     margin:2% 10% 2% 10%;
   }
+  #about h2{
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 1200px) {
   #nav{
@@ -536,6 +530,10 @@ a{
   #projectInfo p span{
     float:left;
   }
+  #about h2{
+    font-size: 20px;
+  }
+
 }
 @media screen and (max-width: 900px) {
   body {
@@ -629,6 +627,28 @@ a{
   #projectInfo p span{
     float:right;
   }
+  #about{
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #about p {
+    font-size:23px;
+    margin:15px;
+  }
+  #about h2{
+    font-size: 25px;
+  }
+  #exp {
+    display: inline-block;
+  }
+  #exp .exp{
+    float:none;
+    padding:10px;
+    width:400px;
+  }
+  #current {
+    height:24%;
+  }
 }
 @media screen and (max-width: 768px) {
   #nav{
@@ -685,6 +705,28 @@ a{
   }
   #projectDisplay .imageCollect {
     height:500px;
+  }
+  #about{
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #about p {
+    font-size:23px;
+    margin:15px;
+  }
+  #about h2{
+    font-size: 25px;
+  }
+  #exp {
+    display: inline-block;
+  }
+  #exp .exp{
+    float:none;
+    padding:10px;
+    width:340px;
+  }
+  #current {
+    height:22%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -744,6 +786,27 @@ a{
   .card-footer {
     padding:5px;
     margin-top: 70px;
+  }
+  #about{
+    display:inline-block;
+  }
+  #about p {
+    font-size:23px;
+    margin:15px;
+  }
+  #about h2{
+    font-size: 25px;
+  }
+  #exp {
+    display: inline-block;
+  }
+  #exp .exp{
+    float:none;
+    padding:10px;
+    width:480px;
+  }
+  #current {
+    height:300px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -846,6 +909,30 @@ a{
   .projectSect p {
     font-size: 15px;
   }
+  #about p {
+    font-size:17px;
+    margin:15px;
+  }
+  #about h2{
+    font-size: 20px;
+  }
+  #exp {
+    display: inline-block;
+  }
+  #exp .exp{
+    float:none;
+    padding:10px;
+    width:400px;
+  }
+  #about-right .edu{
+    width:400px;
+  }
+  #about-right .edu h3{
+    font-size: 25px;
+  }
+  #current {
+    height:300px;
+  }
 }
 @media screen and (max-width: 320px) {
   #nav{
@@ -908,5 +995,55 @@ a{
     padding:5px;
     margin-top: 20px;
     font-size: 17px;
+  }
+  #about p {
+    font-size:17px;
+    margin:15px;
+  }
+  #about h2{
+    font-size: 20px;
+  }
+  #exp {
+    display: inline-block;
+    width:100%;
+  }
+  #exp .exp{
+    float:none;
+    padding:10px;
+    width:280px;
+    margin:10px;
+  }
+  #about-right {
+    width:100%;
+  }
+  #about-right .edu{
+    width:280px;
+    padding:10px;
+    margin:30px;
+  }
+  #about-right .edu h3{
+    font-size: 25px;
+  }
+  #current {
+    height:250px;
+    width:300px;
+    margin:10px;
+  }
+  #about-left .buttons{
+  }
+  #about-left button{
+    padding-top:12px;
+    width:50%;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size:40px;
+    text-transform: uppercase;
+    background-color:#1e2843;
+    border-radius: 12px;
+    border: none;
+    color: 	#586074;
+    display:inline;
+    text-align: center;
+    margin:10px 110px 10px 10px;
   }
 }

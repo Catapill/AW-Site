@@ -40,7 +40,7 @@ export default class About extends Component {
           </div>
 
           <div className="buttons">
-            <a href="/#/cvpage"><button>CV</button></a>
+            <a href="CV.pdf" download="CV.pdf"><button>CV</button></a>
           </div>
         </div>
 
