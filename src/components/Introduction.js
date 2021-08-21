@@ -16,8 +16,8 @@ export default class Home extends Component {
             <h1>ADAM WOODS</h1>
             <h2>SOFTWARE, DATA ANALYSIS AND DESIGN</h2>
             <p>Hello, I'm Adam.
-            A final year student at Northumbria University Studying Computer Science with Artificial Intelligence.
-            I do art, design, programming and web development.</p>
+            A graduate of Northumbria University where I Studied Computer Science with Artificial Intelligence.
+            I enjoy art, design, data analysis, programming and web development.</p>
             <div className="footer">
               <div id="links">
                 <a href="https://open.spotify.com/user/adam.woods13?si=KFcotWdGS6iOVsaKPHFqzg"><img id="spot" className="logo" src={SpotifyLogo}/></a>
