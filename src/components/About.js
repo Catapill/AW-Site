@@ -31,12 +31,14 @@ export default class About extends Component {
           </div>
 
           <div id="current">
-            <h2>Current Life</h2>
-            <p><a>Exo-planet Project (Dissertation)</a></p>
-            <p><a>Light Curve Search Project</a></p>
-            <p><a>TUG_Analysis Project</a></p>
-            <p>Portfolio Development</p>
-            <p>Google's Foobar Challenge</p>
+            <div className="cur">
+              <h2>Current Life</h2>
+              <p><a>Exo-planet Project (Dissertation)</a></p>
+              <p><a>Light Curve Search Project</a></p>
+              <p><a>TUG_Analysis Project</a></p>
+              <p>Portfolio Development</p>
+              <p>Google's Foobar Challenge</p>
+            </div>
           </div>
 
           <div className="buttons">
