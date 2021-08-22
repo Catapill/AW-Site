@@ -10,6 +10,7 @@ import Awlogo from './img/logoSquare.svg'
 import ArtProj from './img/artLogo.svg'
 import LCSProj from './img/LCSLogo.svg'
 import TUGProj from './img/tugLogo.svg'
+import ComingSoon from './img/comingSoonLogo.svg'
 
 export default class Project extends Component {
   constructor(props) {
@@ -55,7 +56,7 @@ export default class Project extends Component {
          "title": "More Coming Soon",
          "desc": "",
          "time": "",
-         "img": Awlogo,
+         "img": ComingSoon,
          "tag": "/projects"
         },
       ]

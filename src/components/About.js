@@ -33,11 +33,11 @@ export default class About extends Component {
           <div id="current">
             <div className="cur">
               <h2>Current Life</h2>
-              <p><a>Exo-planet Project (Dissertation)</a></p>
-              <p><a>Light Curve Search Project</a></p>
-              <p><a>TUG_Analysis Project</a></p>
+              <p>Text Analysis Project (revisited)</p>
+              <p>Data Visualisation Project</p>
+              <p>Interviews & Technical assessments</p>
+              <p>TUG_Analysis Project</p>
               <p>Portfolio Development</p>
-              <p>Google's Foobar Challenge</p>
             </div>
           </div>
 
