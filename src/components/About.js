@@ -12,13 +12,14 @@ export default class About extends Component {
               <p>Python</p>
               <p>MATLAB</p>
               <p>Java</p>
+              <p>Excel</p>
+              <p>SQL</p>
             </div>
             <div className="exp">
               <h2>Web Dev</h2>
               <p>JavaScript</p>
               <p>React</p>
               <p>PHP</p>
-              <p>SQL</p>
               <p>HTML</p>
               <p>CSS</p>
             </div>
@@ -27,6 +28,7 @@ export default class About extends Component {
               <p>Vector Graphics</p>
               <p>Affinity Design/Illustrator</p>
               <p>GIMP/Photoshop</p>
+              <p>3D Graphics (Blender)</p>
             </div>
           </div>
 
@@ -35,8 +37,7 @@ export default class About extends Component {
               <h2>Current Life</h2>
               <p>Text Analysis Project (revisited)</p>
               <p>Data Visualisation Project</p>
-              <p>Interviews & Technical assessments</p>
-              <p>TUG_Analysis Project</p>
+              <p>Job Preperations</p>
               <p>Portfolio Development</p>
             </div>
           </div>
