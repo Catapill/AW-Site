@@ -35,9 +35,7 @@ export default class About extends Component {
           <div id="current">
             <div className="cur">
               <h2>Current Life</h2>
-              <p>Text Analysis Project (revisited)</p>
-              <p>Data Visualisation Project</p>
-              <p>Job Preperations</p>
+              <p>Working as Data Analyst</p>
               <p>Portfolio Development</p>
             </div>
           </div>
