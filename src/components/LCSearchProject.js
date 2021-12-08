@@ -48,7 +48,7 @@ export default class LCSearchProject extends Component {
             <h2>Models</h2>
             <p>The model used is a Naive Bayes classifier which uses the kepler ID as a label.
               Because each kepler ID only has one associated light curve I needed to create some synthetic data to train the model.
-              This was done by generating noise and applying that noise to the light curve, and example of this can be seen in the first two images.
+              This was done by generating noise and applying that noise to the light curve, an example of this can be seen in the first two images.
               Fuzzy logic is applied to combine the model's prediction and euclidean distance to get the best result.</p>
             <h2>Conclusion</h2>
             <p>The model worked well as some light curve searches can be seen in the images section.
