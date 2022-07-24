@@ -11,6 +11,7 @@ import ArtProj from './img/artLogo.svg'
 import LCSProj from './img/LCSLogo.svg'
 import TUGProj from './img/tugLogo.svg'
 import ComingSoon from './img/comingSoonLogo.svg'
+import MusicAna from './img/musicAnalysisLogo.svg'
 
 export default class Project extends Component {
   constructor(props) {
@@ -23,6 +24,13 @@ export default class Project extends Component {
          "time": "19/06/2021",
          "img": ExoProj,
          "tag": "/ExoProject"
+        },
+        {
+         "title": "Monthly Music Analysis",
+         "desc": "Visualisation project for my personal monthly playlists, keeping track of every new album I hear.",
+         "time": "24/07/2022",
+         "img": MusicAna,
+         "tag": "/MusicAnalysisProject"
         },
         {
          "title": "Text Analysis of messages",

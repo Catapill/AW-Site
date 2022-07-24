@@ -14,10 +14,9 @@ export default class Home extends Component {
         <section id="home" data-section="home">
           <div>
             <h1>ADAM WOODS</h1>
-            <h2>SOFTWARE, DATA ANALYSIS AND DESIGN</h2>
+            <h2>DATA SCIENCE, ANALYSIS AND VISUALISATION</h2>
             <p>Hello, I'm Adam.
-            A graduate of Northumbria University where I Studied Computer Science with Artificial Intelligence.
-            I enjoy art, design, data analysis, programming and web development.</p>
+            A data analyst and graduate of Northumbria University where I studied Computer Science with Artificial Intelligence.</p>
             <div className="footer">
               <div id="links">
                 <a href="https://open.spotify.com/user/adam.woods13?si=KFcotWdGS6iOVsaKPHFqzg"><img id="spot" className="logo" src={SpotifyLogo}/></a>

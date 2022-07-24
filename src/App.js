@@ -7,6 +7,7 @@ import Projects from './components/Projects.js'
 import About from './components/About.js'
 import Introduction from './components/Introduction'
 import ExoProject from './components/ExoProject.js'
+import MusicAnalysisProject from './components/MusicAnalysisProject.js'
 import LCSearchProject from './components/LCSearchProject.js'
 import TextProject from './components/TextProject.js'
 import TUGProject from './components/TUGProject.js'
@@ -48,6 +49,9 @@ class App extends Component {
              </Route>
              <Route path="/exoProject">
               <ExoProject />
+             </Route>
+             <Route path="/musicAnalysisProject">
+              <MusicAnalysisProject />
              </Route>
              <Route path="/textProject">
               <TextProject />

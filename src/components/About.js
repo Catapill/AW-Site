@@ -10,10 +10,10 @@ export default class About extends Component {
             <div className="exp">
               <h2>Programming</h2>
               <p>Python</p>
-              <p>MATLAB</p>
-              <p>Java</p>
-              <p>Excel</p>
               <p>SQL</p>
+              <p>Java</p>
+              <p>M Code</p>
+              <p>MATLAB</p>
             </div>
             <div className="exp">
               <h2>Web Dev</h2>
@@ -28,7 +28,6 @@ export default class About extends Component {
               <p>Vector Graphics</p>
               <p>Affinity Design/Illustrator</p>
               <p>GIMP/Photoshop</p>
-              <p>3D Graphics (Blender)</p>
             </div>
           </div>
 
