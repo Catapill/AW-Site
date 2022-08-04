@@ -29,7 +29,7 @@ export default class MusicAnalysisProject extends Component {
           <div id="projectInfo" className="projectSect">
             <h2>Links</h2>
             <div className="buttons">
-              <button><a href="https://app.powerbi.com/view?r=eyJrIjoiOGU1M2Y3OTgtM2E4MS00MDdkLWFkNjgtZGEyNzA5MTU5YzA4IiwidCI6IjQwYzE1OWE2LThkN2MtNDVkMS1iNWJiLTI5MDlhODc5YWEzNiJ9&pageName=ReportSection"><img src={PowerLogo} alt="Repo Icon"></img>Link</a></button>
+              <button><a href="https://app.powerbi.com/view?r=eyJrIjoiMmEzNzg3MDItODMxNy00ZWMyLWFiMjUtZTBjYWFhOWY3YWNmIiwidCI6IjQwYzE1OWE2LThkN2MtNDVkMS1iNWJiLTI5MDlhODc5YWEzNiJ9"><img src={PowerLogo} alt="Repo Icon"></img>Link</a></button>
             </div>
             <h2>Project Info</h2>
             <p>PROJECT TYPE: <span>Programming</span></p>
